@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fibonacci Series</title>
+</head>
+<body>
+
+    <h1>Fibonacci Series</h1>
+
+    <script>
+        let n = prompt("Enter number of terms:");
+        let a = 0, b = 1;
+
+        document.write("Fibonacci Series: ");
+
+        for (let i = 1; i <= n; i++) {
+            document.write(a + " ");
+            let c = a + b;
+            a = b;
+            b = c;
+        }
+    </script>
+
+</body>
+</html>
