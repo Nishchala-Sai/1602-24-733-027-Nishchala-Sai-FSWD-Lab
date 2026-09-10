@@ -1,32 +1,101 @@
+```html
 <!DOCTYPE html>
 <html>
 <head>
     <title>Vasavi College of Engineering</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f2f4f7;
+        }
+
+        header {
+            background-color: #17365d;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #222;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        nav a:hover {
+            color: lightblue;
+        }
+
+        main {
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        section, article, aside {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #17365d;
+        }
+
+        li {
+            margin: 8px;
+        }
+
+        footer {
+            background-color: #17365d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
 
 <body>
 
+    <!-- Header -->
     <header>
         <h1>Vasavi College of Engineering</h1>
-        <p>Computer Science and Engineering</p>
+        <p>Excellence in Technical Education</p>
     </header>
 
+    <!-- Navigation -->
     <nav>
-        <a href="#home">Home</a> |
-        <a href="#departments">Departments</a> |
-        <a href="#news">Latest News</a> |
+        <a href="#home">Home</a>
+        <a href="#departments">Departments</a>
+        <a href="#news">Latest News</a>
         <a href="#contact">Contact</a>
     </nav>
 
+    <!-- Main Content -->
     <main>
 
+        <!-- Home Section -->
         <section id="home">
             <h2>Welcome</h2>
-            <p>Welcome to Vasavi College of Engineering.</p>
+            <p>
+                Welcome to Vasavi College of Engineering.
+                The college provides quality education and
+                encourages students to participate in technical activities.
+            </p>
         </section>
 
+        <!-- Departments -->
         <section id="departments">
             <h2>Departments</h2>
+
             <ul>
                 <li>Computer Science and Engineering</li>
                 <li>Information Technology</li>
@@ -35,20 +104,43 @@
             </ul>
         </section>
 
+        <!-- Latest News -->
         <section id="news">
             <h2>Latest News</h2>
+
             <article>
                 <h3>Technical Events</h3>
-                <p>Students participate in hackathons and coding contests.</p>
+                <p>
+                    Students participate in hackathons,
+                    coding contests and technical workshops.
+                </p>
+            </article>
+
+            <article>
+                <h3>Student Achievements</h3>
+                <p>
+                    Students actively participate in various
+                    technical competitions and events.
+                </p>
             </article>
         </section>
 
+        <!-- Aside -->
+        <aside>
+            <h2>Quick Information</h2>
+            <p><b>Location:</b> Hyderabad</p>
+            <p><b>Type:</b> Engineering College</p>
+        </aside>
+
     </main>
 
+    <!-- Footer -->
     <footer id="contact">
         <p>Vasavi College of Engineering | Hyderabad</p>
-        <p>© 2026 College Website</p>
+        <p>Email: info@vce.ac.in</p>
+        <p>© 2026 Vasavi College of Engineering</p>
     </footer>
 
 </body>
 </html>
+```
